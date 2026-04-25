@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="sap.whitelistService" content="./whitelist/service" />
+    <title>Deep App Router</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f4; }
+        h1 { color: #333; }
+        a { color: #0a6ed1; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); max-width: 500px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Deep App Router</h1>
+        <p>The approuter is running successfully.</p>
+        <h3>Backend API (Node Microservice)</h3>
+        <ul>
+            <li><a href="/api/">Microservice Root</a></li>
+            <li><a href="/api/data.json">Microservice Data</a></li>
+        </ul>
+        <h3>CAP Application (Animal Adoption)</h3>
+        <ul>
+            <li><a href="/animaladoption/animaladoption/webapp/index.html">Fiori Elements UI</a></li>
+            <li><a href="/animaladoption/odata/v4/adoptor/">OData Service</a></li>
+            <li><a href="/animaladoption/odata/v4/adoptor/Animals">Animals Entity</a></li>
+            <li><a href="/animaladoption/odata/v4/adoptor/Adopters">Adopters Entity</a></li>
+        </ul>
+    </div>
+</body>
+
+<script
+  id="sap-ui-bootstrap"
+  src="resources/sap-ui-core.js"
+  data-sap-ui-frame-options="trusted">
+</script>
+
+</html>

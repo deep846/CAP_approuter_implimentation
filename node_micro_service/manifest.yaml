@@ -1,0 +1,9 @@
+---
+version: 1
+applications:
+- name: my-microservice-app
+  memory: 512M
+  instances: 2
+  buildpacks:
+  - nodejs_buildpack
+  random-route: true

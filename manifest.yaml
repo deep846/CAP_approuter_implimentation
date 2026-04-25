@@ -1,0 +1,48 @@
+---
+applications:
+  # ---- Backend Microservice ----
+  - name: deep-microservice
+    path: node_micro_service
+    memory: 256M
+    instances: 1
+    buildpacks:
+      - nodejs_buildpack
+    command: npm start
+    random-route: true
+  
+  # ---- CAP Application (Animal Adoption) ----
+  - name: deep-cap-srv
+    path: CAP_annotation_based_Application_local
+    memory: 256M
+    instances: 1
+    buildpacks:
+      - nodejs_buildpack
+    command: npx cds-serve
+    random-route: true
+    services:
+      - deep-xsuaa-service
+
+  # ---- SAP Approuter ----
+  - name: deep-approuter
+    path: approuter
+    memory: 256M
+    instances: 1
+    buildpacks:
+      - nodejs_buildpack
+    env:
+      destinations: >
+        [
+          {
+            "name": "microservice_api",
+            "url": "https://deep-microservice-grateful-jaguar-ce.cfapps.us10-001.hana.ondemand.com",
+            "forwardAuthToken": true
+          },
+          {
+            "name": "cap_api",
+            "url": "https://deep-cap-srv-responsible-puku-zj.cfapps.us10-001.hana.ondemand.com",
+            "forwardAuthToken": true
+          }
+        ]
+    services:
+      - deep-xsuaa-service
+    random-route: true

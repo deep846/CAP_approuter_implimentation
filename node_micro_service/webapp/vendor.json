@@ -1,0 +1,174 @@
+{
+    "Vendor":[
+  {
+    "vendorId": "VEN001",
+    "vendorName": "TechNova Solutions",
+    "contactPerson": "Rakesh Kumar",
+    "email": "contact@technova.com",
+    "phone": "+91-9888877766",
+    "vendorType": "IT Services",
+    "gstNumber": "29ABCDE1234F1Z5",
+    "address": {
+      "street": "MG Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pinCode": "560001"
+    },
+    "status": "Active"
+  },
+  {
+    "vendorId": "VEN002",
+    "vendorName": "Bright Office Supplies",
+    "contactPerson": "Anil Mehra",
+    "email": "sales@brightoffice.com",
+    "phone": "+91-9876500123",
+    "vendorType": "Office Supplies",
+    "gstNumber": "07PQRSX5678L1Z9",
+    "address": {
+      "street": "Connaught Place",
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India",
+      "pinCode": "110001"
+    },
+    "status": "Active"
+  },
+  {
+    "vendorId": "VEN003",
+    "vendorName": "CloudWave Technologies",
+    "contactPerson": "Sneha Iyer",
+    "email": "info@cloudwave.io",
+    "phone": "+91-9000011122",
+    "vendorType": "Cloud Services",
+    "gstNumber": "27LMNOP4321Q1Z6",
+    "address": {
+      "street": "Baner Road",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "pinCode": "411045"
+    },
+    "status": "Active"
+  },
+  {
+    "vendorId": "VEN004",
+    "vendorName": "FastTrack Logistics",
+    "contactPerson": "Mahesh Patil",
+    "email": "support@fasttracklogistics.in",
+    "phone": "+91-9123456677",
+    "vendorType": "Logistics",
+    "gstNumber": "27FASTL1234R1Z2",
+    "address": {
+      "street": "MIDC Area",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India",
+      "pinCode": "400093"
+    },
+    "status": "Active"
+  },
+  {
+    "vendorId": "VEN005",
+    "vendorName": "GreenLeaf Catering",
+    "contactPerson": "Poonam Shah",
+    "email": "orders@greenleafcatering.com",
+    "phone": "+91-9811122233",
+    "vendorType": "Catering",
+    "gstNumber": "24GREEN9876T1Z1",
+    "address": {
+      "street": "CG Road",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India",
+      "pinCode": "380009"
+    },
+    "status": "Inactive"
+  },
+  {
+    "vendorId": "VEN006",
+    "vendorName": "SecureIT Systems",
+    "contactPerson": "Karthik Rao",
+    "email": "contact@secureit.com",
+    "phone": "+91-9766655544",
+    "vendorType": "Cyber Security",
+    "gstNumber": "29SECIT5678M1Z4",
+    "address": {
+      "street": "Whitefield",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pinCode": "560066"
+    },
+    "status": "Active"
+  },
+  {
+    "vendorId": "VEN007",
+    "vendorName": "PixelCraft Studios",
+    "contactPerson": "Aditi Malhotra",
+    "email": "hello@pixelcraft.design",
+    "phone": "+91-9944556677",
+    "vendorType": "Design Agency",
+    "gstNumber": "06PIXEL1122A1Z8",
+    "address": {
+      "street": "Sector 44",
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "country": "India",
+      "pinCode": "122003"
+    },
+    "status": "Active"
+  },
+  {
+    "vendorId": "VEN008",
+    "vendorName": "DataBridge Analytics",
+    "contactPerson": "Sanjay Kulkarni",
+    "email": "sales@databridge.ai",
+    "phone": "+91-9888999000",
+    "vendorType": "Data Analytics",
+    "gstNumber": "27DATAA4455C1Z3",
+    "address": {
+      "street": "Hinjewadi Phase 2",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "pinCode": "411057"
+    },
+    "status": "Active"
+  },
+  {
+    "vendorId": "VEN009",
+    "vendorName": "EcoPower Utilities",
+    "contactPerson": "Vikram Singh",
+    "email": "connect@ecopower.in",
+    "phone": "+91-9009988776",
+    "vendorType": "Power & Utilities",
+    "gstNumber": "08ECOPO7788D1Z7",
+    "address": {
+      "street": "Industrial Area",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India",
+      "pinCode": "302013"
+    },
+    "status": "Active"
+  },
+  {
+    "vendorId": "VEN010",
+    "vendorName": "AssistPro Support Services",
+    "contactPerson": "Neeraj Thakur",
+    "email": "help@assistpro.com",
+    "phone": "+91-9345678901",
+    "vendorType": "Customer Support",
+    "gstNumber": "02ASSIS3210B1Z9",
+    "address": {
+      "street": "IT Park Road",
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "country": "India",
+      "pinCode": "160101"
+    },
+    "status": "Active"
+  }
+]
+}

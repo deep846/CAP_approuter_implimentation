@@ -1,0 +1,49 @@
+{
+  "welcomeFile": "/index.html",
+  "authenticationMethod": "route",
+  "routes": [
+    
+{
+      "source": "^/whitelist/service$",
+      "target": "/whitelist/service",
+      "service": "whitelistService",
+      "authenticationType": "none"
+    },
+    {
+      "source": "^/api/(.*)$",
+      "target": "/$1",
+      "destination": "microservice_api",
+      "authenticationType": "xsuaa",
+      "csrfProtection": false
+    },
+    {
+      "source": "^/odata/(.*)$",
+      "target": "/odata/$1",
+      "destination": "cap_api",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^/animaladoption/(.*)$",
+      "target": "/$1",
+      "destination": "cap_api",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^/sap/(.*)$",
+      "target": "/sap/$1",
+      "destination": "cap_api",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^(.*)$",
+      "target": "$1",
+      "localDir": "webapp",
+      "authenticationType": "xsuaa"
+    }
+  ],
+  
+ "whitelistService": {
+    "endpoint": "/whitelist/service"
+  }
+
+}

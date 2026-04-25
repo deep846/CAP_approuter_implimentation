@@ -1,0 +1,124 @@
+{
+"emp":[
+  {
+    "employeeId": "EMP001",
+    "firstName": "Amit",
+    "lastName": "Sharma",
+    "email": "amit.sharma@example.com",
+    "phone": "+91-9876543210",
+    "department": "Engineering",
+    "jobTitle": "Software Engineer",
+    "salary": 850000,
+    "location": "Bangalore",
+    "status": "Active"
+  },
+  {
+    "employeeId": "EMP002",
+    "firstName": "Priya",
+    "lastName": "Verma",
+    "email": "priya.verma@example.com",
+    "phone": "+91-9123456780",
+    "department": "Human Resources",
+    "jobTitle": "HR Manager",
+    "salary": 780000,
+    "location": "Delhi",
+    "status": "Active"
+  },
+  {
+    "employeeId": "EMP003",
+    "firstName": "Rahul",
+    "lastName": "Mehta",
+    "email": "rahul.mehta@example.com",
+    "phone": "+91-9001122334",
+    "department": "Engineering",
+    "jobTitle": "Backend Developer",
+    "salary": 900000,
+    "location": "Pune",
+    "status": "Active"
+  },
+  {
+    "employeeId": "EMP004",
+    "firstName": "Neha",
+    "lastName": "Kapoor",
+    "email": "neha.kapoor@example.com",
+    "phone": "+91-9887766554",
+    "department": "Finance",
+    "jobTitle": "Financial Analyst",
+    "salary": 720000,
+    "location": "Mumbai",
+    "status": "Active"
+  },
+  {
+    "employeeId": "EMP005",
+    "firstName": "Arjun",
+    "lastName": "Singh",
+    "email": "arjun.singh@example.com",
+    "phone": "+91-9345678123",
+    "department": "Sales",
+    "jobTitle": "Sales Executive",
+    "salary": 650000,
+    "location": "Chennai",
+    "status": "Inactive"
+  },
+  {
+    "employeeId": "EMP006",
+    "firstName": "Kavya",
+    "lastName": "Nair",
+    "email": "kavya.nair@example.com",
+    "phone": "+91-9765432198",
+    "department": "Marketing",
+    "jobTitle": "Marketing Specialist",
+    "salary": 700000,
+    "location": "Kochi",
+    "status": "Active"
+  },
+  {
+    "employeeId": "EMP007",
+    "firstName": "Suresh",
+    "lastName": "Reddy",
+    "email": "suresh.reddy@example.com",
+    "phone": "+91-9090909090",
+    "department": "Operations",
+    "jobTitle": "Operations Manager",
+    "salary": 820000,
+    "location": "Hyderabad",
+    "status": "Active"
+  },
+  {
+    "employeeId": "EMP008",
+    "firstName": "Ananya",
+    "lastName": "Iyer",
+    "email": "ananya.iyer@example.com",
+    "phone": "+91-9554433221",
+    "department": "Design",
+    "jobTitle": "UI/UX Designer",
+    "salary": 760000,
+    "location": "Bangalore",
+    "status": "Active"
+  },
+  {
+    "employeeId": "EMP009",
+    "firstName": "Vikram",
+    "lastName": "Joshi",
+    "email": "vikram.joshi@example.com",
+    "phone": "+91-9812345678",
+    "department": "Engineering",
+    "jobTitle": "DevOps Engineer",
+    "salary": 950000,
+    "location": "Noida",
+    "status": "Active"
+  },
+  {
+    "employeeId": "EMP010",
+    "firstName": "Pooja",
+    "lastName": "Desai",
+    "email": "pooja.desai@example.com",
+    "phone": "+91-9898765432",
+    "department": "Support",
+    "jobTitle": "Customer Support Lead",
+    "salary": 620000,
+    "location": "Ahmedabad",
+    "status": "Active"
+  }
+]
+}
