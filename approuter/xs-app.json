@@ -2,13 +2,6 @@
   "welcomeFile": "/index.html",
   "authenticationMethod": "route",
   "routes": [
-    
-{
-      "source": "^/whitelist/service$",
-      "target": "/whitelist/service",
-      "service": "whitelistService",
-      "authenticationType": "none"
-    },
     {
       "source": "^/api/(.*)$",
       "target": "/$1",
@@ -40,10 +33,6 @@
       "localDir": "webapp",
       "authenticationType": "xsuaa"
     }
-  ],
-  
- "whitelistService": {
-    "endpoint": "/whitelist/service"
-  }
+  ]
 
 }

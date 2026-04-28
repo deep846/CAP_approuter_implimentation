@@ -7,50 +7,45 @@
         "https://*.cfapps.us10-001.hana.ondemand.com/**"
       ]
     },
-
   "scopes": [
     {
-      "name": "$XSAPPNAME.Adopter",
-      "description": "Adopter role - can view animals and submit adoption applications"
+      "name": "$XSAPPNAME.Adoptor",
+      "description": "Adoptor"
     },
     {
       "name": "$XSAPPNAME.Admin",
-      "description": "Admin role - full access to manage animals and applications"
+      "description": "Admin"
+    },
+    {
+      "name": "$XSAPPNAME.Adopter",
+      "description": "Adopter"
     }
   ],
   "attributes": [],
   "role-templates": [
     {
       "name": "Adopter",
-      "description": "Adopter - view animals, submit applications",
+      "description": "generated",
       "scope-references": [
         "$XSAPPNAME.Adopter"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "Adoptor",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.Adoptor"
       ],
       "attribute-references": []
     },
     {
       "name": "Admin",
-      "description": "Admin - full access",
+      "description": "generated",
       "scope-references": [
         "$XSAPPNAME.Admin"
       ],
       "attribute-references": []
-    }
-  ],
-  "role-collections": [
-    {
-      "name": "AnimalAdoption_Adopter",
-      "description": "Adopter - can view and adopt animals",
-      "role-template-references": [
-        "$XSAPPNAME.Adopter"
-      ]
-    },
-    {
-      "name": "AnimalAdoption_Admin",
-      "description": "Admin - full management access",
-      "role-template-references": [
-        "$XSAPPNAME.Admin"
-      ]
     }
   ]
 }
